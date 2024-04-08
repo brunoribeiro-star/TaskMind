@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100% !important;
+    font-family: "Poppins", sans serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.presentation-page {
+    height: 1080px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.apresentacao {
+    padding-top: 200px;
+    padding-bottom: 100px;
+    width: 1000px;
+}
+
+.apresentacao button {
+    margin-left: 113px;
+}
+
+h1 {
+    font-family: "Poppins", sans serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+p {
+    text-align: center;
+}
+
+.lista li {
+    line-height: 10px;
+    border: 2px solid transparent;
+    border-image: linear-gradient(to right, #5f0064, #a703af);
+    border-image-slice: 2;
+    padding: 20px;
+    margin-top: 50px;
+    display: inline-block;
+    width: 200px;
+    margin-left: 50px;
+}
+
+.organizacao,
+.produtividade,
+.otimizacao,
+.tempo {
+    border: 2px solid transparent;
+    border-image: linear-gradient(to right, #5f0064, #a703af);
+    border-image-slice: 2;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+b {
+    color: #a703af;
+}
+
+h2 {
+    background: linear-gradient(to right, #5f0064, #a703af);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    margin-top: 50px;
+}
+
+.user-info {
+    padding: 0;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.user-card {
+    height: 350px;
+    width: 250px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 2px solid transparent;
+    border-image: linear-gradient(to right, #5f0064, #a703af);
+    border-image-slice: 2;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .user-card img {
+    width: 100%;
+    border-radius: 4px;
+  }
+
+.user-card h2 {
+    background: linear-gradient(to right, #5f0064, #a703af);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    margin-top: 0;
+    font-size: 15px;
+}
+
+.user-card p {
+    font-size: 12px;
+}
+
+.apresentacao button {
+    margin-left: 400px;
+}
