@@ -32,10 +32,10 @@ button {
 
 @media screen and (max-width: 768px) {
     #centralizar {
-      margin-top: 10vh; /* Ajuste do espaçamento superior para telas menores */
+      margin-top: 10vh;
     }
   
     #primeiro-botao {
-      margin-left: 50px; /* Removendo margem esquerda para telas menores */
+      margin-left: 50px;
     }
   }

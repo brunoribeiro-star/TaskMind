@@ -1,6 +1,6 @@
 import React, { useState, useContext, useEffect } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
-import { AuthContext } from '../App'; // Importando o contexto atualizado
+import { AuthContext } from '../App';
 import { db } from '../firebaseConnection';
 import { collection, addDoc, getDocs, query, where, deleteDoc, updateDoc, doc } from 'firebase/firestore';
 import '../css/task.css';
@@ -16,11 +16,11 @@ const TasksView = () => {
 
   useEffect(() => {
     if (!usuario) {
-      navigate('/login'); // Redirecionar para a tela de login se o usuário não estiver autenticado
+      navigate('/login');
     } else {
       loadTasks();
     }
-  }, [usuario]); // Adicionado o usuário como uma dependência para o useEffect
+  }, [usuario]);
 
   const loadTasks = async () => {
     try {

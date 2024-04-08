@@ -27,7 +27,7 @@ const LoginView = () => {
         id: userCredential.user.uid,
         email: userCredential.user.email,
       });
-      navigate('/tarefas'); // Redireciona para a página de tarefas após o login bem-sucedido
+      navigate('/tarefas');
     } catch (error) {
       console.error('Erro na autenticação:', error.message);
       setError('Falha na autenticação: ' + error.message);

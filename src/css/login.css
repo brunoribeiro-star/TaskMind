@@ -97,7 +97,7 @@ form button {
 
 @media screen and (min-width: 600px) {
   div {
-    width: 400px; /* Define a largura máxima da div */
-    margin: auto; /* Centraliza a div horizontalmente */
+    width: 400px;
+    margin: auto;
   }
 }
